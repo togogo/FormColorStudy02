@@ -2,6 +2,8 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+    testScheme.setupPalette();
+    testScheme.loadColors();
 
 }
 
@@ -12,7 +14,12 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+    
+    testScheme.showColors();
+    
+    //for debugging purposes...
+    //ofSetColor(testScheme.blueSunset.color[0]);
+    //ofDrawCircle(ofGetWidth()/2, ofGetHeight()/2, 100, 100);
 }
 
 //--------------------------------------------------------------
