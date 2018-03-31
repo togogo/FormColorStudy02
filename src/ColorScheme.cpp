@@ -37,13 +37,15 @@ void ColorScheme::loadColors(){
     shimmeringBG.addColor(ofColor(65, 172, 238));
     shimmeringBG.addColor(ofColor(238, 243, 104));
     shimmeringBG.addColor(ofColor(164, 151, 118));
+    
+    
 }
 
 void ColorScheme::showColors(){
     
-    //blueSunset.drawPalette(ofVec2f(ofGetMouseX(), ofGetMouseY()));
+    //just laying out the color palettes I've created
     blueSunset.drawPalette(ofVec2f(30, 40));
     classicRetro.drawPalette(ofVec2f(30, 80));
     shimmeringBG.drawPalette(ofVec2f(30, 120));
-    //palette.draw();
+
 }
