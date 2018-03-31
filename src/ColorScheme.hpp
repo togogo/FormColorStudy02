@@ -16,6 +16,8 @@ public:
     ColorPalette blueSunset;
     ColorPalette classicRetro;
     ColorPalette shimmeringBG;
+    ColorPalette sunsetOverSwamp;
+    ColorPalette mediBlues;
 
     ofxPanel palette;
     vector<ofxButton> colorSamples;

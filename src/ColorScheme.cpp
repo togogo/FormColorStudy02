@@ -38,6 +38,18 @@ void ColorScheme::loadColors(){
     shimmeringBG.addColor(ofColor(238, 243, 104));
     shimmeringBG.addColor(ofColor(164, 151, 118));
     
+    sunsetOverSwamp.addColor(ofColor(10, 100, 162), "Sunset Over Swamp");
+    sunsetOverSwamp.addColor(ofColor(106, 116, 165));
+    sunsetOverSwamp.addColor(ofColor(242, 235, 119));
+    sunsetOverSwamp.addColor(ofColor(233, 143, 61));
+    sunsetOverSwamp.addColor(ofColor(228, 97, 62));
+    
+    mediBlues.addColor(ofColor(170, 165, 190), "Mediterranean Blues");
+    mediBlues.addColor(ofColor(89, 87, 117));
+    mediBlues.addColor(ofColor(85, 63, 48));
+    mediBlues.addColor(ofColor(239, 225, 215));
+    mediBlues.addColor(ofColor(187, 154, 144));
+    
     
 }
 
@@ -47,5 +59,7 @@ void ColorScheme::showColors(){
     blueSunset.drawPalette(ofVec2f(30, 40));
     classicRetro.drawPalette(ofVec2f(30, 80));
     shimmeringBG.drawPalette(ofVec2f(30, 120));
+    sunsetOverSwamp.drawPalette(ofVec2f(30, 160));
+    mediBlues.drawPalette(ofVec2f(30, 200));
 
 }
